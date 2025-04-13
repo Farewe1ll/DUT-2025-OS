@@ -72,4 +72,4 @@ git push -u origin main
 
 以上。经过内容的完善，最终 Github 呈现效果如图。
 
-![](./7.jpg)
+![](./7.png)
