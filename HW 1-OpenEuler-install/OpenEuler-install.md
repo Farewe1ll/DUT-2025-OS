@@ -1,3 +1,5 @@
+# OpenEuler-install
+
 # Step 0: VMware Station Pro
 
 ## 获取 VMware Workstation Pro
@@ -6,16 +8,16 @@
 
 比较讨厌的是，官网的账号注册比较讨厌，~~第一次见到用户名是姓+名的注册方式~~，稍微摸索了一下，登录进入后发现并没有直接跳转到下载页面~~感觉给 VMware 菜完了~~，找到 free downloads products 之后摸进了[下载地址](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true)，还要求填一下具体的住址，感觉非常不牛。
 
-![](1.png)
+![](./img/1.png)
 
 ## 安装 VMware Station Pro
 
 安装过程没什么好提的，一路 yes yes yes 即可。修改了下安装目录至 D:\，记得把添加到系统 PATH 勾选上。
 
-![](2.png)
-![](3.png)
-![](4.png)
-![](5.png)
+![](./img/2.png)
+![](./img/3.png)
+![](./img/4.png)
+![](./img/5.png)
 
 # Step 1: OpenEuler DevStation
 
@@ -29,32 +31,32 @@ OpenEuler 发行版的官方版本有不少，我比较想部署的是正式版�
 
 一波三折后开始虚拟机安装过程，iso文件选上刚刚的下载的镜像，~~默认检测出来是 Fedora 呵呵~~稍微多划分了一点CPU(8核)，内存(12G)和存储(20G)。启动虚拟机提示为了安全禁用了侧通道缓解，于是先退出调整了下设置。
 
-![](6.png)
-![](7.png)
-![](8.png)
-![](9.png)
-![](10.png)
-![](11.png)
-![](20.png)
-![](12.png)
+![](./img/6.png)
+![](./img/7.png)
+![](./img/8.png)
+![](./img/9.png)
+![](./img/10.png)
+![](./img/11.png)
+![](./img/20.png)
+![](./img/12.png)
 
 ## 安装 OpenEuler DevStation
 
 启动虚拟机，进入 live，并没有什么好说的。live 自带的 DE 是 GNOME，新的 44 挺好看的，~~感觉可以改变一下对 GNOME 中庸且无趣的 UI 的印象了~~然而 OpenEuler 的安装程序却莫名卡顿，每一次输入后需要进入任务管理界面再重新选择安装程序 GUI 加载一遍，体验十分不友好~~以至于一开始我以为是我的电脑问题~~。原本磁盘就空的，直接选择自动分区懒得划分区了~~以前装 Deepin 还要自己划 var swap 分区~~，12G 内存感觉也没划分 swap 分区的必要了，一路 yes 到底。然后重启。
 
-![](13.png)
-![](14.png)
-![](15.png)
-![](16.png)
-![](17.png)
-![](18.png)
-![](19.png)
-![](21.png)
-![](22.png)
-![](23.png)
-![](24.png)
-![](25.png)
-![](26.png)
+![](./img/13.png)
+![](./img/14.png)
+![](./img/15.png)
+![](./img/16.png)
+![](./img/17.png)
+![](./img/18.png)
+![](./img/19.png)
+![](./img/21.png)
+![](./img/22.png)
+![](./img/23.png)
+![](./img/24.png)
+![](./img/25.png)
+![](./img/26.png)
 
 # Step 3: 查看系统
 
@@ -68,8 +70,8 @@ more ~/list.txt
 
 简单查看了下，果然内置了不少开发工具链。后续也没有心情继续使用该系统，遂结束。
 
-![](27.png)
-![](28.png)
-![](29.png)
-![](30.png)
-![](31.png)
+![](./img/27.png)
+![](./img/28.png)
+![](./img/29.png)
+![](./img/30.png)
+![](./img/31.png)
