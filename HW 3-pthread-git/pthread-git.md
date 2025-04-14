@@ -4,16 +4,16 @@
 
 ### pthread_create && pthread_join 实践
 
-![](./img/1.png)
+![](./images/1.png)
 
 程序如上，在 [opengroup](https://pubs.opengroup.org) 官网查到 pthread_create 函数和 pthread_join 函数如下：
 
-![](./img/2.png)
-![](./img/3.png)
+![](./images/2.png)
+![](./images/3.png)
 
 实际使用编译指令及程序运行结果如下：
 
-![](./img/4.png)
+![](./images/4.png)
 
 可以看到 pthread 库以 work 函数成功创建了新的线程，完成输出后等待线程完成和主程序合并。
 
@@ -27,11 +27,11 @@
 
 在 [我自己的 Github 个人主页](https://github.com/Farewe1ll?tab=repositories) 上，点击 New 创建新仓库。
 
-![](./img/5.png)
+![](./images/5.png)
 
 在页面中完成个人配置。
 
-![](./img/6.png)
+![](./images/6.png)
 
 由于此处我已经建立好仓库，故提示无法如此命名。可以勾选选择 README.md，我自己选择了较为严格的 GPLv3 证书。
 
@@ -72,4 +72,4 @@ git push -u origin main
 
 以上。经过内容的完善，最终 Github 呈现效果如图。
 
-![](./img/7.png)
+![](./images/7.png)
