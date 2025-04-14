@@ -2,7 +2,7 @@
 
 ## pthread Section
 
-## 1. pthread 线程库
+### pthread_create && pthread_join 实践
 
 ![](./1.png)
 
