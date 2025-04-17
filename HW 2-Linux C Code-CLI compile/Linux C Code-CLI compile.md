@@ -16,6 +16,6 @@
 ![](./images/8.png)
 如上。三次 fork() 均成功，产生 $2^3 = 8$ 个进程，分别输出 Hello。
 
-![](1./images/1.png)
-![](1./images/2.png)
+![](./images/11.png)
+![](./images/12.png)
 如上。
