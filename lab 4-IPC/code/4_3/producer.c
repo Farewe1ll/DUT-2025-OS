@@ -25,6 +25,9 @@ int main(int argc, char *argv[]) {
 	buff_ptr = (char *)set_shm(buff_key, buff_num, shm_flg); // 缓冲区首地址
 	pput_ptr = (int *)set_shm(pput_key, pput_num, shm_flg);  // 写指针地址
 
+	// 初始化生产者指针为0（确保从头开始）
+	*pput_ptr = 0;
+
 	// 信号量相关配置
 	prod_key = 201;     // 生产者同步信号量键值
 	pmtx_key = 202;     // 生产者互斥信号量键值
