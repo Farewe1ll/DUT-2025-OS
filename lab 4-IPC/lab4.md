@@ -88,7 +88,7 @@ int main() {
 > 使用 `down(sem_done)` 等待吸烟者完成抽烟
 > 等待 $1$ 秒后继续下一轮
 
-2. smoker.c - 拥有胶水的吸烟者
+2. smoker.c - 吸烟者
 
 > 工作流程：
 > 使用 `down(sem_xxx_xxx)` 等待供应者提供烟草和纸
