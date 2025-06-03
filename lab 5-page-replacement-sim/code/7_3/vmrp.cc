@@ -1,8 +1,3 @@
-/*
-* Filename         ：vmrp.cc
-* copyright        ： (C) 2006 by zhonghonglie
-* Function         ：模拟虚拟内存页置换算法的程序
-*/
 #include "vmrp.h"
 
 Replace::Replace() {
@@ -118,7 +113,7 @@ void Replace::Lru(void) {
 
 // 先进先出算法（FIFO）
 void Replace::Fifo(void) {
-	int i, j, k, l = 0, next, ptr = 0;
+	int i, k, l = 0, next, ptr = 0;
 	InitSpace(const_cast<char*>("FIFO"));
 
 	for (k = 0; k < PageNumber; k++) {
@@ -156,6 +151,7 @@ void Replace::Fifo(void) {
 
 // 未实现的其他算法框架
 void Replace::Clock(void) {}
+// 在vmrp.cc文件中补充Eclock函数实现
 void Replace::Eclock(void) {}
 void Replace::Lfu(void) {}
 void Replace::Mfu(void) {}

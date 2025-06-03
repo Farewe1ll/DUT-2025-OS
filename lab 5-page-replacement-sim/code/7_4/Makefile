@@ -3,7 +3,7 @@ HEAD = vmrp.h
 SRC = vmrp.cc
 OBJ = vmrp.o
 CXX = g++
-CXXFLAGS = -Wall -g -c  # 添加警告和调试信息
+CXXFLAGS = -Wall -g -c # -DLOCAL # 添加警告和调试信息
 
 # 默认目标：生成可执行文件
 all: vmrp
